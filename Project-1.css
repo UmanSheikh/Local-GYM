@@ -1,0 +1,83 @@
+.navbar ul li{
+   display: inline-block;
+   padding: 10px 20px;
+   color: white;
+
+}
+.navbar{
+    width: 70%;
+    display: inline-block;
+    background-color: black;
+    border-radius: 13px;
+    border-color: red;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+}
+.navbar ul li a:hover, .navbar ul li a:active{
+    text-decoration: underline;
+    color: red;
+
+}
+.btn-div{
+    display: inline-block;
+    width: 25%;
+    /* border: 2px solid red; */
+    margin: -15px;
+}
+
+body{
+    background-color: black;
+}
+
+.btn{
+    color: white;
+    background-color: black;
+    border-radius: 13px;
+    border: none;
+    text-align: center;
+    padding: 5px 16px;
+    float: right;
+    margin: 4px;
+    border: 2px solid red;
+}
+.btn-div button:hover{
+    color: red;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.form label{
+    text-decoration: underline red;
+    color: white;
+    font-size: 20px;
+}
+.form{
+    border: 2px solid white;
+    padding: 40px 4px;
+    border-radius: 13px;
+}
+
+.form input{
+    border-radius: 13px;
+    border: 2px solid white;
+    padding: 8px 55px;
+    text-align: center;
+}
+
+.btn-sub{
+    color: white;
+    background-color: black;
+    border-radius: 13px;
+    border: none;
+    text-align: center;
+    padding: 5px 16px;
+    /* float: right; */
+    margin: 4px;
+    border: 2px solid red;
+}
+.btn-sub :hover{
+    cursor: pointer;
+}
